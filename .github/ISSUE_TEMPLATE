@@ -1,0 +1,40 @@
+.github/ISSUE_TEMPLATE/avis_recherche.yml
+
+name: Avis de recherche
+description: Créer une fiche de personne recherchée
+title: "[RECHERCHE] Nom Prénom - Ville"
+labels: ["avis-recherche"]
+
+body:
+- type: input
+  id: nom
+  attributes:
+    label: Nom complet
+    placeholder: Jean Dupont
+  validations:
+    required: true
+
+- type: input
+  id: age
+  attributes:
+    label: Âge
+
+- type: input
+  id: lieu
+  attributes:
+    label: Dernière localisation connue
+
+- type: textarea
+  id: description
+  attributes:
+    label: Description physique
+
+- type: textarea
+  id: circonstances
+  attributes:
+    label: Circonstances
+
+- type: input
+  id: contact
+  attributes:
+    label: Contact
