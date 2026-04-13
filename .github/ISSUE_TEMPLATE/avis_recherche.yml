@@ -23,7 +23,7 @@ body:
     id: lieu
     attributes:
       label: Dernière localisation connue
-      placeholder: Paris
+      placeholder: QG
 
   - type: textarea
     id: description
