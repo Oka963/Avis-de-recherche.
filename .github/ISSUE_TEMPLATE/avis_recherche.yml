@@ -17,7 +17,7 @@ body:
     id: age
     attributes:
       label: Âge
-      placeholder: 35
+      placeholder: "35"
 
   - type: input
     id: lieu
