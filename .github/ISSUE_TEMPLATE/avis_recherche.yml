@@ -9,7 +9,7 @@ body:
     id: nom
     attributes:
       label: Nom complet
-      placeholder: Jean Dupont
+      placeholder: Oka Zen'in
     validations:
       required: true
 
@@ -17,7 +17,7 @@ body:
     id: age
     attributes:
       label: Âge
-      placeholder: "35"
+      placeholder: "19"
 
   - type: input
     id: lieu
