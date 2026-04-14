@@ -1,24 +1,18 @@
 ---
-
-<div class="card">
-  <h2>Oka Zen'in</h2>
-  <p>Âge : 19</p>
-  <p>Localisation : QG</p>
-</div>
-
 name: Avis de recherche
 description: Créer une fiche de personne recherchée
 title: "[RECHERCHE] Nom Prénom - Ville"
 labels: ["avis-recherche"]
 
 body:
-  - type: input
-    id: nom
+  - type: markdown
     attributes:
-      label: Nom complet
-      placeholder: Oka Zen'in
-    validations:
-      required: true
+      value: |
+        <div class="card">
+        <h2>Oka Zen'in</h2>
+        <p>Age : 19</p>
+        <p>Localisation : QG</p>
+        </div>
 
   - type: input
     id: age
