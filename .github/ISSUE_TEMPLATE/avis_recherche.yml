@@ -1,4 +1,11 @@
 ---
+
+<div class="card">
+  <h2>Oka Zen'in</h2>
+  <p>Âge : 19</p>
+  <p>Localisation : QG</p>
+</div>
+
 name: Avis de recherche
 description: Créer une fiche de personne recherchée
 title: "[RECHERCHE] Nom Prénom - Ville"
